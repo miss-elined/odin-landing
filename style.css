@@ -14,10 +14,6 @@ body {
 h1,
 h2 {
   font-family: "Bebas Neue", sans-serif;
-  /* font-family: Righteous, sans-serif; */
-  /* font-family: Baumans, sans-serif; */
-  /* font-family: "Syncopate", sans-serif; */
-  /* font-family: McLaren, sans-serif; */
 }
 
 .header {
@@ -30,14 +26,11 @@ h2 {
 
 .logo {
   font-size: 25px;
-  /* font-family: "Bebas Neue", sans-serif; */
 }
 
 .section-1 {
   background-color: #ebedec;
   padding: 40px;
-  /* width: 1000px;
-  margin: 0 auto; */
   display: flex;
   justify-content: center;
   flex: 1;
@@ -45,8 +38,6 @@ h2 {
 
 .landing {
   width: 300px;
-  /* max-height: 280px; */
-  /* flex: 1 1 100px; */
   margin: 0 40px 0 0;
 }
 
@@ -65,7 +56,6 @@ h2 {
   width: 400px;
   border-radius: 7px;
   margin: 0 auto 0 0;
-  /* flex: 1 1 400px; */
 }
 
 .section-2 {
@@ -109,7 +99,6 @@ h2 {
   max-width: 150px;
   margin: 10px 0 0 0;
   color: white;
-  /* color: #ebedec; */
 }
 
 .section-3 {
@@ -122,9 +111,6 @@ h2 {
 }
 
 .quote {
-  /* background-color: white;
-  padding: 20px;
-  border-radius: 5px; */
   max-width: 450px;
   display: flex;
   flex-direction: column;
@@ -146,9 +132,6 @@ h2 {
   background-color: rgb(146, 151, 149);
   padding: 40px;
   display: flex;
-  /* align-items: center; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
   flex: 1;
 }
 
@@ -204,8 +187,6 @@ a {
 button {
   background-color: rgb(157, 48, 46);
   color: white;
-  /* font-family: "Bebas Neue", sans-serif;
-  font-size: 16px; */
   font-weight: 700;
   padding: 10px 15px;
   border: 0;
