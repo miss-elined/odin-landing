@@ -4,6 +4,16 @@
 .section-1 {
 }
 
+.main-image img {
+  height: 400px;
+}
+
+.card-image img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
 .section-2 {
 }
 
