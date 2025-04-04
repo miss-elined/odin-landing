@@ -33,10 +33,6 @@ h2 {
   /* font-family: "Bebas Neue", sans-serif; */
 }
 
-.navigation {
-  display: flex;
-}
-
 .section-1 {
   background-color: #ebedec;
   padding: 40px;
@@ -49,6 +45,7 @@ h2 {
 
 .landing {
   width: 300px;
+  /* max-height: 280px; */
   /* flex: 1 1 100px; */
   margin: 0 40px 0 0;
 }
@@ -66,7 +63,7 @@ h2 {
 
 .main-image img {
   width: 400px;
-  border-radius: 15px;
+  border-radius: 7px;
   margin: 0 auto 0 0;
   /* flex: 1 1 400px; */
 }
@@ -104,7 +101,7 @@ h2 {
   width: 200px;
   height: 200px;
   border: 5px solid white;
-  border-radius: 15px;
+  border-radius: 7px;
 }
 
 .card-description {
@@ -127,11 +124,16 @@ h2 {
 .quote {
   /* background-color: white;
   padding: 20px;
-  border-radius: 15px; */
-  max-width: 500px;
+  border-radius: 5px; */
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.quote-text,
+.quote-author {
+  font-size: 20px;
 }
 
 .quote-author {
@@ -144,8 +146,29 @@ h2 {
   background-color: rgb(146, 151, 149);
   padding: 40px;
   display: flex;
+  /* align-items: center; */
   /* flex-direction: column; */
+  /* justify-content: center; */
   flex: 1;
+}
+
+.banner {
+  background-color: #ebedec;
+  padding: 30px 50px;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 7px;
+}
+
+.banner button {
+  align-self: center;
+  margin: 0 0 0 auto;
+}
+
+.banner h2,
+.banner p {
+  margin: 0 0 5px 0;
 }
 
 .footer {
@@ -162,6 +185,7 @@ ul {
   display: flex;
   list-style-type: none;
   gap: 15px;
+  font-weight: 700;
 }
 
 a {
@@ -172,6 +196,9 @@ a {
 button {
   background-color: rgb(157, 48, 46);
   color: white;
+  /* font-family: "Bebas Neue", sans-serif;
+  font-size: 16px; */
+  font-weight: 700;
   padding: 10px 15px;
   border: 0;
   border-radius: 5px;
